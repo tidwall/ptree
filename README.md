@@ -1,5 +1,8 @@
 # ptree
 
+[![GoDoc](https://godoc.org/github.com/tidwall/ptree?status.svg)](https://godoc.org/github.com/tidwall/ptree)
+
+
 This package provides an in-memory data structure for storing points.
 
 Under the hood it stores points in a tree structure where nodes are spatially split evenly over a 16x16 grid and leaf nodes hold up to 256 points each.
