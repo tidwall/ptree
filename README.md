@@ -8,7 +8,7 @@ Under the hood it stores points in a tree structure where nodes are spatially sp
 
 It's api works a lot like the [tidwall/rtree](https://github.com/tidwall/rtree) library, but ptree is limited to only storing point while rtree can store points and rectangles. It's also structurally closer to an quadtree than an rtree.
 
-Here's what a R-tree looks like in comparison
+Here's what the R-tree looks like in comparison
 
 <img src="cities-rtree.png" height="256" border="0" alt="Cities">
 
